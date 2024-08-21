@@ -2,29 +2,65 @@ package cursojavaclasses;
 
 public class Aluno {
 
-	String nome;
-	int idade;
-	String Cpf;
-	String RG;
-	String NomeMae;
-	String NomePai;
-	String DataNascimento;
-	double altura;
+	private String Nome;
+	private int Idade;
+	private String Cpf;
+	private String RG;
+	private String NomeMae;
+	private String NomePai;
+	private String DataNascimento;
+	private double Altura;
+	{
 
-	public Aluno() { /* CRIA OS DADOS NA MEMORIA COM O JAVA - Sendo padrão */
-		
-
-	}
-	/*TAMBEM USADO PARA RECEBER DADOS PRÉ DEFINIDOS*/
-	public Aluno(String nomePadrão) {
-		nome = nomePadrão;
-	}
-	
-	public Aluno(String nomePadrão, int idadePadrão) {
-		nome = nomePadrão;
-		idade = idadePadrão;
 		
 	}
-	
-	
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+	public int getIdade() {
+		return Idade;
+	}
+	public void setIdade(int idade) {
+		Idade = idade;
+	}
+	public String getCpf() {
+		return Cpf;
+	}
+	public void setCpf(String cpf) {
+		Cpf = cpf;
+	}
+	public String getRG() {
+		return RG;
+	}
+	public void setRG(String rG) {
+		RG = rG;
+	}
+	public String getNomeMae() {
+		return NomeMae;
+	}
+	public void setNomeMae(String nomeMae) {
+		NomeMae = nomeMae;
+	}
+	public String getNomePai() {
+		return NomePai;
+	}
+	public void setNomePai(String nomePai) {
+		NomePai = nomePai;
+	}
+	public String getDataNascimento() {
+		return DataNascimento;
+	}
+	public void setDataNascimento(String dataNascimento) {
+		DataNascimento = dataNascimento;
+	}
+	public double getAltura() {
+		return Altura;
+	}
+	public void setAltura(double altura) {
+		Altura = altura;
+	}
+
 }
